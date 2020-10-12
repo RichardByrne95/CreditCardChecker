@@ -25,7 +25,7 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 //An array to store all invalid card numbers.
 let invalidCards = [];
 
-// A function check whether a credit card number/account number is valid using the Luhn Algorithm.
+// A function to check whether a credit card number/account number is valid using the Luhn Algorithm.
 function validateCred(array) {
   sumOfArray = 0;
   for (let i = array.length - 2; i >= 0; i -= 2) {
